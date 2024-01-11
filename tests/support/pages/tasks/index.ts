@@ -1,7 +1,6 @@
 import { Page, expect } from '@playwright/test'
 import { TaskModel } from '../../../fixtures/task.model'
 
-
 export class TasksPage{
     readonly page:Page
 
@@ -29,7 +28,4 @@ export class TasksPage{
         const target = this.page.locator('.swal2-html-container')
         await expect(target).toHaveText(text)
     }
-
-
-
 }
