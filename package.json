@@ -1,0 +1,12 @@
+{
+  "name": "pw-mark",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.8"
+  },
+  "scripts": {}
+}
